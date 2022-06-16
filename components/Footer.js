@@ -10,10 +10,10 @@ function Footer() {
         <div className="p-5 ">
           <ul>
 		  <p className="text-gray-800 font-bold text-3xl pb-6">
-							Stream<span className="text-blue-600">line</span>
+							Web<span className="text-blue-600">Gamma</span>
             </p>
             <div className="flex gap-6 pb-5">
-              <FaWhatsapp className="text-2xl cursor-pointer hover:text-yellow-600" />
+              <FaWhatsapp className="text-2xl cursor-pointer hover:text-green-600" />
               <FaGithub className="text-2xl cursor-pointer hover:text-blue-600" />
               <FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />
             </div>
