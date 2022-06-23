@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div>
       {/* for main navcontainer*/}
-      <nav className=" shadow-sm fixed w-full z-10">
+      <nav className=" shadow-sm bg-local  w-full z-10">
         <div className="w-full">
           <div className="flex items-center h-20 w-full">
             {/* first block section outer part*/}
