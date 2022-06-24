@@ -12,11 +12,11 @@ import {
 
 function ContactPage() {
   return (
-    <div className="bg-[#1a2385] w-screen md:h-screen h-auto">
+    <div className="bg-[#1a2385] w-screen md:h-screen h-autoid=contactform">
       <div className="flex justify-around items-center mx-20 md:flex-row flex-col">
         {/* textual content */}
         <div className="md:w-1/2 w-full md:p-10 my-10 md:my-0  flex-col">
-          <h1 className="text-6xl font-semibold text-white ">Get In Touch</h1>
+          <h1 className="text-4xl font-semibold text-white ">Get In Touch</h1>
           <p className="text-gray-300 font-semibold text-sm my-5">
             Fill up the form & our Team will get back to you.
           </p>
