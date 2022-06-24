@@ -12,7 +12,7 @@ import {
 
 function ContactPage() {
   return (
-    <div className="bg-[#1a2385] w-screen md:h-screen h-auto">
+    <div className="bg-[#1a2385] w-screen md:h-screen h-auto" id="contactform">
       <div className="flex justify-around items-center mx-20 md:flex-row flex-col">
         {/* textual content */}
         <div className="md:w-1/2 w-full md:p-10 my-10 md:my-0  flex-col">
