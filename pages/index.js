@@ -2,8 +2,9 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroSection1 from "../components/HeroSection1";
-import Services from "../components/Services";
+import Services from "./Services";
 import Contact from "../components/Contact";
+import Projects from "./Projects";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <HeroSection1 />
+      <Projects />
       <Services />
       <Contact />
       <Footer />

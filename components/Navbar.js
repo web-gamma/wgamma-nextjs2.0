@@ -26,7 +26,7 @@ function Navbar() {
                    duration i.e how much time it will change*/}
                   <Link
                     activeClass="Home"
-                    to="about"
+                    to="Home"
                     smooth={true}
                     offset={50}
                     duration={500}
@@ -35,8 +35,8 @@ function Navbar() {
                     Home
                   </Link>
                   <Link
-                    activeClass="about"
-                    to="about"
+                    activeClass="HeroPage"
+                    to="heropage"
                     smooth={true}
                     offset={50}
                     duration={500}
@@ -45,8 +45,8 @@ function Navbar() {
                     About
                   </Link>
                   <Link
-                    activeClass="work"
-                    to="work"
+                    activeClass="Projects"
+                    to="Projects"
                     smooth={true}
                     offset={50}
                     duration={500}
@@ -57,7 +57,7 @@ function Navbar() {
 
                   <Link
                     activeClass="Services"
-                    to="work"
+                    to="Services"
                     smooth={true}
                     offset={50}
                     duration={500}
@@ -67,8 +67,8 @@ function Navbar() {
                   </Link>
 
                   <Link
-                    activeClass="contact"
-                    to="contact"
+                    activeClass="Contact"
+                    to="contactform"
                     smooth={true}
                     offset={50}
                     duration={500}
@@ -168,9 +168,9 @@ function Navbar() {
                 </Link>
 
                 <Link
-                  href="/work"
-                  activeClass="work"
-                  to="work"
+                  href="/Projects"
+                  activeClass="Projects"
+                  to="Projects"
                   smooth={true}
                   offset={50}
                   duration={500}
@@ -179,9 +179,9 @@ function Navbar() {
                   Projects
                 </Link>
                 <Link
-                  href="/services"
-                  activeClass="services"
-                  to="services"
+                  href="/Services"
+                  activeClass="Services"
+                  to="Services"
                   smooth={true}
                   offset={50}
                   duration={500}
@@ -191,9 +191,9 @@ function Navbar() {
                 </Link>
 
                 <Link
-                  href="/contact"
-                  activeClass="work"
-                  to="work"
+                  href="/contactform"
+                  activeClass="Contact"
+                  to="contactform"
                   smooth={true}
                   offset={50}
                   duration={500}
